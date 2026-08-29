@@ -5,7 +5,6 @@ import { Container } from "@/components/layout/Container";
 import { Section } from "@/components/layout/Section";
 import { SectionHeading } from "@/components/layout/SectionHeading";
 import { PropertyGrid } from "@/components/property/PropertyGrid";
-import { SearchBar } from "@/components/property/SearchBar";
 import { CTA } from "@/components/sections/CTA";
 import { ServiceCard } from "@/components/sections/ServiceCard";
 import { Stats } from "@/components/sections/Stats";
@@ -177,12 +176,6 @@ export function HomePage() {
   return (
     <div>
       <Hero />
-
-      <Section>
-        <Reveal>
-          <SearchBar />
-        </Reveal>
-      </Section>
 
       <Section id="propiedades">
         <div className="flex flex-col items-start justify-between gap-4 lg:flex-row lg:items-end">
